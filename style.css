@@ -1,0 +1,801 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Volkhov', serif
+}
+header{
+    /* border:1px solid red; */
+    /* position: relative; */
+    /* height: 90px; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 50px;
+}
+/* .login{ */
+    /* position: absolute; */
+    /* left: 1200px; */
+    /* top: 200px; */
+/* } */
+.login button{
+    width: 100px;
+    height: 42px;
+    background-color: #1BC768;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+
+}
+.logo h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+.special{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+.mother{
+    display: flex;
+}
+.wecan{
+    width: 40%;
+    margin-top: 100px;
+}
+.img{
+    border: 1px solid red;
+    width: 60%;
+    text-align: right;
+    margin-top: 100px;
+}
+.img img{
+    /* border: 1px solid yellow; */
+    /* justify-content: left; */
+    /* margin-top: 200px; */
+    /* max-width: 100%; */
+/* position: absolute; */
+/* width: 483px; */
+/* height: 500px; */
+/* left: 885px; */
+/* top: 179px; */
+
+}
+.wecan p{
+    margin-top: 30px;
+    width: 500px;
+     font-family: 'Avenir';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 25px;
+     color: #FFFFFF;
+ 
+
+}
+.wecan h5{
+    margin-top: 30px;
+    /* width: 500px; */
+     font-family: 'Avenir';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 25px;
+     color: #FFFFFF;
+
+}
+.wecan h1{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+     font-size: 48px;
+     line-height: 66px;
+     color: #FFFFFF;
+}
+.button{
+    margin-top: 30px;
+    /* width: 480px; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.button p{
+    height: 35px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 4px;
+    border: 1px solid white;
+    border-radius: 150px;
+    cursor: pointer;
+}
+.button p:hover{
+    background-color: #FFFFFF;
+    color: blue;
+}
+.input{
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    border: 1px solid red;
+    /* width: 466px; */
+    margin-top: 50px;
+    /* padding-right: 20px; */
+}
+.input .drug{
+    border: 1px solid white;
+    background-color: #1BC768;
+    border-radius: 0px 25px 25px 0px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    /* margin-bottom: 200px; */
+    
+    /* justify-content: center; */
+}
+.input .drug h4{
+    /* position: absolute; */
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 200px;
+}
+.input input{
+    width: 400px;
+    height: 50px ;
+    border: none;
+    outline: none;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 50px;
+    /* text-align: center; */
+}
+.input img{
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+}
+.all{
+    background-image: url(./Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 700px; */
+}
+
+
+.our{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our h1{
+    text-align: center;
+    ont-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 49px;
+
+color: #043CAA;
+margin-top: 60px;
+}
+.my{
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 10px;
+}
+.my h2{
+    width: 50px;
+    height: 5px;
+    border: 1px solid red;
+     border-radius: 50px 0px 0px 50px;
+    border-left: none;
+    background: #043CAA;
+    border: none;
+}
+.my h3{
+    width: 50px;
+    height: 5px;
+    border: 1px solid red;
+     /* border-radius: 25px; */
+     border-radius: 0px 50px 50px 0px;
+     background: #1BC768;
+     border: none;
+    
+}
+.img3{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.benefit{
+    margin-top: 100px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 49px;
+text-align: center;
+
+color: #043CAA;
+
+}
+.wordimg{
+    border: 1px solid red;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.wordimg .allwords{
+    border: 1px solid red;
+    width: 50%;
+    /* margin: 40px; */
+    margin-top: 20px;
+}
+.allwords h2{
+    width: 220px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 27px;
+line-height: 33px;
+
+color: #043CAA;
+
+}
+.allwords p{
+    margin-bottom: 25px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #333333;
+}
+.allwords .goget{
+    width: 200px;
+    position: relative;
+}
+.goget img{
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+.goget .lol{
+    margin-left: 7px;
+}
+.allwords h4{
+    /* width: 300px; */
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 11px;
+ border: 1px solid #1BC768;
+ color: #1BC768;
+ border-radius: 50px;
+ margin-top:40px;
+}
+.myp{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+ .ay {
+    /* width: 70%; */
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+.ay div img{
+    padding-top: 5px;
+
+}
+.ay div p{
+    margin-left: 20px;
+}
+.group37{
+    width: 50%;
+}
+.group37 .imgg img{
+    width: 500px;
+}
+.mummy{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.first{
+    border: 1px solid red;
+    width: 60%;
+}
+.first img{
+    width: 400px;
+}
+.second{
+    position: relative;
+    border: 1px solid blue;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+.second h1{
+    width: 250px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 40px;
+
+color: #043CAA;
+margin-bottom: 30px;
+
+}
+
+.mypara div{
+    /* width: 300px; */
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* justify-content: space-between; */
+}
+.mypara div p{
+    margin-left: 30px;
+}
+.get{
+    position: relative;
+    width: 200px;
+}
+ .second .get h4{
+    position:relative;
+    /* width: 200px; */
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 11px;
+ border: 1px solid #1BC768;
+ color: #1BC768;
+ border-radius: 50px;
+ margin-top:40px;
+}
+.second .get img{
+    position: absolute;
+   top:59px;
+   right: px;
+   left: 150px;
+   }
+   .second .get .lol{
+      margin-left: 8px;
+   }
+   .setup{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .setup1{
+    width: 50%;
+    border: 1px solid blue;
+    position: relative;
+    margin-top: 50px;
+   }
+   .setup2{
+    width: 50%;
+    border: 1px solid red;
+   }
+   .setup2 img{
+    width: 500px;
+   }
+   .setup1 h1{
+    width: 250px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 40px;
+
+color: #043CAA;
+
+   }
+   .newsetup{
+    padding-top: 20px;
+   }
+   .newsetup div{
+    display: flex;
+    margin-top: 30px;
+   }
+   .newsetup div p{
+    margin-left: 30px;
+   }
+  .minee{
+    position: relative;
+    width: 200px;
+  }
+  .minee h4{
+    /* position: absolute; */
+    /* width: 200px; */
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 11px;
+ border: 1px solid #1BC768;
+ color: #1BC768;
+ border-radius: 50px;
+ margin-top:40px;
+  }
+.minee img{
+    position: absolute;
+    top: 20px;
+left: 160px;
+
+}
+.minee .job{
+    margin-left: 8px;
+}
+.what{
+    /* width: 80%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+}
+.what1{
+    width: 60%;
+    border: 1px solid red;
+}
+.what1 img{
+    width: 500px;
+}
+.what2{
+    margin-bottom: 50px;
+    /* padding-bottom: 500px; */
+    border: 1px solid red;
+    width: 40% ;
+    margin-right: 170px;
+    /* margin-top: 200px; */
+}
+.what2 h1{
+    margin-top: 60px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+
+color: #000000;
+
+}
+.what2 p{
+    width: 330px;
+    margin-top: 50px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    
+    
+    color: #7A7A7A;
+    
+}
+.what2 h4{
+    margin-top: 30px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+/* or 32px */
+
+
+color: #043CAA;
+}
+.what2 .my{
+    margin-right: 180px;
+}
+footer{
+    background:  #043CAA;;
+}
+.footerlist1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    padding-top: 110px;
+}
+.myfootlist1{
+    border: 1px solid red;
+    width: 50%;
+    /* margin-top: 90px; */
+}
+.myfootlist1 h1{
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.myfootlist1 p{
+    width: 370px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+margin-top: 15px;
+
+color: #FFFFFF;
+}
+.myfootlist2{
+    /* position: relative; */
+    border: 1px solid red;
+    width: 50%;
+}
+.myfootlist2 h3{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 10px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.myfootlist2 input{
+    width: 400px;
+    height: 50px ;
+    border: none;
+    outline: none;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 50px;
+    /* text-align: center; */
+    
+}.myfootlist2 .sub p{
+    border: 1px solid white;
+    background-color: #1BC768;
+    border-radius: 0px 25px 25px 0px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    padding-top: 15px;
+    padding-right: 40px;
+    color: #FFFFFF;
+}
+.inputme{
+    /* position: relative; */
+    display: flex;
+    margin-top: 10px;
+}
+.inputme .sub{
+    position: relative;
+}
+.inputme .sub p{
+    cursor: pointer;
+}
+.inputme .sub img{
+    width: 18px;
+position: absolute;
+right: 20px;
+top: 18px;
+}
+.dexpress{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.dexpress1{
+    /* border: 1px solid white; */
+    width: 40%;
+}
+.dexpress1 h1{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.dexpress1 p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+}
+.dexpress1 p{
+    width: 190px;
+}
+.dexpress2{
+      /* border:1px solid white ; */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 90px;
+    
+}
+.dexpress2 div h3{
+    margin-bottom: 15px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.dexpress2 div p{
+    margin-bottom: 20px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.design{
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.design h2{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+
+
+color: #FFFFFF;
+padding-left: 90px;
+}
+.hamburger{
+    display: none;
+}
+ .hamburger .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+@media all and (max-width:768px) {
+.hamburger{
+    display: block;
+}
+body{
+    /* width: 80%; */
+    /* margin: auto; */
+}
+header{
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+}
+.nav{
+    display: none;
+    width: 100%;
+    
+}
+.logo{
+    margin: right 20px;
+}
+.login{
+    display: none;
+}
+.all{
+    /* height: 600px; */
+}
+.mother .wecan{
+    width: 80%;
+    /* margin: auto; */
+    border: none;
+
+}
+.mother .wecan h1{
+    border: none;
+    width: 340px;
+  font-size: 35px;
+  line-height: normal;
+}
+.mother .wecan h5{
+    width: 300px;
+    text-align: center;
+    /* margin-left: 10px; */
+}
+.button{
+    /* border: 1px solid red; */
+    width: 130%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 90px;
+    
+}
+.button p{
+    width: 500px;
+    /* height: 60px; */
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    border-radius: 12px;
+    padding-left: 10px;
+    margin-right: 20px;
+    /* border-width: 5px; */
+    
+
+}
+}
